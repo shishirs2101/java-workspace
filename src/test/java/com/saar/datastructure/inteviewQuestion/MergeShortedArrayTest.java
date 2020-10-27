@@ -1,4 +1,4 @@
-package com.saar.inteviewQuestion;
+package com.saar.datastructure.inteviewQuestion;
 
 import junit.framework.TestCase;
 import org.junit.Test;

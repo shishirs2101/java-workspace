@@ -1,7 +1,7 @@
-package com.saar.inteviewQuestion;
+package com.saar.datastructure.inteviewQuestion;
 
-import com.saar.inteviewQuestion.list.CustomLinkedList;
-import com.saar.inteviewQuestion.list.Node;
+import com.saar.datastructure.list.CustomLinkedList;
+import com.saar.datastructure.list.Node;
 
 import java.util.ArrayList;
 import java.util.List;

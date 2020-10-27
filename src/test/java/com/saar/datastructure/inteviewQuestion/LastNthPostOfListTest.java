@@ -1,6 +1,5 @@
-package com.saar.inteviewQuestion;
+package com.saar.datastructure.inteviewQuestion;
 
-import com.saar.inteviewQuestion.list.CustomLinkedList;
 import junit.framework.TestCase;
 
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package com.saar.inteviewQuestion;
+package com.saar.datastructure.inteviewQuestion;
 
 import org.apache.log4j.Logger;
 

@@ -1,6 +1,5 @@
-package com.saar.inteviewQuestion.list;
+package com.saar.datastructure.list;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 

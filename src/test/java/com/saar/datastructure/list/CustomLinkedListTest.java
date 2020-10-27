@@ -1,4 +1,4 @@
-package com.saar.inteviewQuestion.list;
+package com.saar.datastructure.list;
 
 import junit.framework.TestCase;
 

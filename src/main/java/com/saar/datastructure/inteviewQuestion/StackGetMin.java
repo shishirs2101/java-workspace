@@ -1,7 +1,5 @@
-package com.saar.inteviewQuestion;
+package com.saar.datastructure.inteviewQuestion;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 public class StackGetMin {
