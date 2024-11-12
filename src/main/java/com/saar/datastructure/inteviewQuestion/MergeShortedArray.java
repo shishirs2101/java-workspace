@@ -4,6 +4,7 @@ import com.saar.datastructure.list.CustomLinkedList;
 import com.saar.datastructure.list.Node;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class MergeShortedArray {
@@ -41,13 +42,13 @@ public class MergeShortedArray {
     }
 
     public static void main(String[] args) {
-        // getNodeInstance(List.of(1,3,4,4,5,6)).show();
+        // getNodeInstance(Arrays.asList(1,3,4,4,5,6)).show();
 
         CustomLinkedList mergeLinkedList = new CustomLinkedList();
         CustomLinkedList mergeLinkedList1 = new CustomLinkedList();
 
-        mergeLinkedList.addList(List.of(1, 3, 4, 6, 10, 11));
-        mergeLinkedList1.addList(List.of(2, 5, 7, 8, 9,12,13));
+        mergeLinkedList.addList(Arrays.asList(1, 3, 4, 6, 10, 11));
+        mergeLinkedList1.addList(Arrays.asList(2, 5, 7, 8, 9,12,13));
         System.out.println("Node a " + mergeLinkedList.toString());
         System.out.println("Node b" + mergeLinkedList1.toString());
         System.out.println("List merged ... ");

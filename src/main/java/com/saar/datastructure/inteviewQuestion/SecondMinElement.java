@@ -1,5 +1,6 @@
 package com.saar.datastructure.inteviewQuestion;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class SecondMinElement {
@@ -21,8 +22,8 @@ public class SecondMinElement {
 
     }
     public static void main(String[] args) {
-        System.out.println(SecondMinElement.secMinEelement(List.of(3,1,5,7,6,10,2,6,0)));
-        System.out.println(SecondMinElement.secMinEelement(List.of(5,8,6,10)));
-        System.out.println(SecondMinElement.secMinEelement(List.of(3,0,5,7,-6,-5,0)));
+        System.out.println(SecondMinElement.secMinEelement(Arrays.asList(3,1,5,7,6,10,2,6,0)));
+        System.out.println(SecondMinElement.secMinEelement(Arrays.asList(5,8,6,10)));
+        System.out.println(SecondMinElement.secMinEelement(Arrays.asList(3,0,5,7,-6,-5,0)));
     }
 }

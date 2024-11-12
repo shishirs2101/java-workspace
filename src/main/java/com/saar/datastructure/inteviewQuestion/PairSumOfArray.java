@@ -52,15 +52,15 @@
 //
 //    public static void main(String[] args) {
 //        PairSumOfArray pairSumOfArray = new PairSumOfArray();
-//        int pairCount = pairSumOfArray.getPairCount(List.of(1, 7, 1, 3, 5, 9, -1, 9, -13), 8);
+//        int pairCount = pairSumOfArray.getPairCount(Arrays.asList(1, 7, 1, 3, 5, 9, -1, 9, -13), 8);
 //        System.out.println(pairCount);
-//        int pairCount1 = pairSumOfArray.getPairElementCount(List.of(1, 7, 1, 7, 3, 5, 9, -1, 9, -13), 8);
+//        int pairCount1 = pairSumOfArray.getPairElementCount(Arrays.asList(1, 7, 1, 7, 3, 5, 9, -1, 9, -13), 8);
 //        System.out.println(pairCount1);
-//        int pairCount2 = pairSumOfArray.getPairElementCount(List.of(1, 3, 3, 3, 3, 1, 2, 1, 2,5,5,5,-1,-1), 4);
+//        int pairCount2 = pairSumOfArray.getPairElementCount(Arrays.asList(1, 3, 3, 3, 3, 1, 2, 1, 2,5,5,5,-1,-1), 4);
 //        System.out.println(pairCount2);
-//        int pairCount3 = pairSumOfArray.getPairElementCount(List.of(1, 3, 3, 3, 3), 4);
+//        int pairCount3 = pairSumOfArray.getPairElementCount(Arrays.asList(1, 3, 3, 3, 3), 4);
 //        System.out.println(pairCount3);
-//        int pairCount4 = pairSumOfArray.getPairCount(List.of(1, 3, 3, 3, 3), 4);
+//        int pairCount4 = pairSumOfArray.getPairCount(Arrays.asList(1, 3, 3, 3, 3), 4);
 //        System.out.println(pairCount4);
 //
 //

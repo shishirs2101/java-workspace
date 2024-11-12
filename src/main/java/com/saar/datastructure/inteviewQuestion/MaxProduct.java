@@ -1,5 +1,6 @@
 package com.saar.datastructure.inteviewQuestion;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MaxProduct {
@@ -20,7 +21,7 @@ public class MaxProduct {
     }
     public static void main(String[] args) {
         MaxProduct maxProduct = new MaxProduct();
-        System.out.println(maxProduct.getMaxProduct(List.of(-2,-3,4,-1,-2,1,5,-3)));
+        System.out.println(maxProduct.getMaxProduct(Arrays.asList(-2,-3,4,-1,-2,1,5,-3)));
 
     }
 

@@ -1,10 +1,8 @@
 package com.saar.datastructure.inteviewQuestion.blumeHackerEarth;
 
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.lang.reflect.Array;
+import java.util.*;
 
 /**
  * rearrange the array to
@@ -14,24 +12,12 @@ import java.util.List;
  */
 public class MinimumDiffSum {
     public static void main(String[] args) {
-      List<Integer> list =   new ArrayList<>(){{
-            add(1);
-            add(2);
-            add(3);
-            add(4);
-            add(1);
-        }};
+      List<Integer> list = Arrays.asList(1,2,3,4,1);
 
 
         System.out.println(minSum(list));
 
-        list =   new ArrayList<>(){{
-            add(5);
-            add(1);
-            add(3);
-            add(7);
-            add(3);
-        }};
+        list =   Arrays.asList(5,1,3,7,3);
 
         System.out.println(minSum(list));
     }

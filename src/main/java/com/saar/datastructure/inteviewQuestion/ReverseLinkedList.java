@@ -3,6 +3,7 @@ package com.saar.datastructure.inteviewQuestion;
 import com.saar.datastructure.list.CustomLinkedList;
 import com.saar.datastructure.list.Node;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class ReverseLinkedList {
@@ -70,7 +71,7 @@ public class ReverseLinkedList {
     public static void main(String[] args) {
         ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
         CustomLinkedList customLinkedList = new CustomLinkedList();
-        customLinkedList.addList(List.of(1, 2, 3, 4, 5, 6));
+        customLinkedList.addList(Arrays.asList(1, 2, 3, 4, 5, 6));
         //reverseLinkedList.recursionMethod(customLinkedList);
         //reverseLinkedList.getReverseListWithoutRecursion(customLinkedList);
         reverseLinkedList.getTailRecursiveList(customLinkedList);

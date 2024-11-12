@@ -16,8 +16,8 @@ import static java.util.stream.Collectors.toList;
 public class EfficentJennifer {
     public static void main(String[] args) throws IOException {
 
-        List<Float> list = List.of(1.01f, 1.01f, 1.01f, 1.4f, 2.4f);
-        List<Float> list1 = List.of(4f, 1.01f, 1.991f, 1.32f, 1.4f);
+        List<Float> list = Arrays.asList(1.01f, 1.01f, 1.01f, 1.4f, 2.4f);
+        List<Float> list1 = Arrays.asList(4f, 1.01f, 1.991f, 1.32f, 1.4f);
         System.out.println(Result.efficientJanitor(list));
         System.out.println(Result.efficientJanitor(list1));
     }

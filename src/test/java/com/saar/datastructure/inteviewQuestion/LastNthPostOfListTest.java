@@ -2,6 +2,7 @@ package com.saar.datastructure.inteviewQuestion;
 
 import junit.framework.TestCase;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class LastNthPostOfListTest extends TestCase {
 
 
     public void testGetRecursiveNthPos() {
-        LastNthPostOfList.addList(List.of(1, 2, 3, 4, 5, 6, 7, 8));
+        LastNthPostOfList.addList(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8));
         assertEquals(8, LastNthPostOfList.getRecursiveNthPos(1));
     }
 
@@ -34,7 +35,7 @@ public class LastNthPostOfListTest extends TestCase {
     }
 
     public void testGetNthPosSolution() {
-        assertEquals(8, LastNthPostOfList.getNthPosSolution2(1, List.of(1, 2, 3, 4, 5, 6, 7, 8)));
+        assertEquals(8, LastNthPostOfList.getNthPosSolution2(1, Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8)));
     }
 
 }

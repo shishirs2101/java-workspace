@@ -3,6 +3,7 @@ package com.saar.datastructure.inteviewQuestion;
 import com.saar.datastructure.list.CustomLinkedList;
 import com.saar.datastructure.list.Node;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class LastNthPostOfList {
@@ -54,6 +55,6 @@ public class LastNthPostOfList {
     }
 
     public static void main(String[] args) {
-        System.out.println(getNthPosSolution2(1,List.of(1, 2, 3, 4, 5, 6, 7, 8)));
+        System.out.println(getNthPosSolution2(1, Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8)));
     }
 }

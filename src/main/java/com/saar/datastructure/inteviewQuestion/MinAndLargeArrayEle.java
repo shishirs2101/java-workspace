@@ -1,5 +1,6 @@
 package com.saar.datastructure.inteviewQuestion;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MinAndLargeArrayEle {
@@ -20,7 +21,7 @@ public class MinAndLargeArrayEle {
 
     public static void main(String[] args) {
         MinAndLargeArrayEle minAndLargeArrayEle = new MinAndLargeArrayEle();
-        minAndLargeArrayEle.findMinAndMaxEle(List.of(0, 3, 4, 5, 7, 12, 5, 34, 45, -10, 343));
-        minAndLargeArrayEle.findMinAndMaxEle(List.of(45));
+        minAndLargeArrayEle.findMinAndMaxEle(Arrays.asList(0, 3, 4, 5, 7, 12, 5, 34, 45, -10, 343));
+        minAndLargeArrayEle.findMinAndMaxEle(Arrays.asList(45));
     }
 }

@@ -1,5 +1,7 @@
 package com.saar.multithreading;
 
+import java.util.function.Consumer;
+
 import static java.lang.String.format;
 
 public class NotifyThread {

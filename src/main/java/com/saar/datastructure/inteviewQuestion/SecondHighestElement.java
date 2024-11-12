@@ -1,5 +1,6 @@
 package com.saar.datastructure.inteviewQuestion;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class SecondHighestElement {
@@ -20,8 +21,8 @@ public class SecondHighestElement {
 
 
     public static void main(String[] args) {
-        System.out.println(SecondHighestElement.secondHighestElement(List.of(3,0,5,7,6,1,2,6,0)));
-        System.out.println(SecondHighestElement.secondHighestElement(List.of(5,8,6,10)));
-        System.out.println(SecondHighestElement.secondHighestElement(List.of(3,0,5,7,-6,-5,0)));
+        System.out.println(SecondHighestElement.secondHighestElement(Arrays.asList(3,0,5,7,6,1,2,6,0)));
+        System.out.println(SecondHighestElement.secondHighestElement(Arrays.asList(5,8,6,10)));
+        System.out.println(SecondHighestElement.secondHighestElement(Arrays.asList(3,0,5,7,-6,-5,0)));
     }
 }
